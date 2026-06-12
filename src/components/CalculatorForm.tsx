@@ -62,15 +62,14 @@ export default function CalculatorForm() {
   useEffect(() => {
     const handleOnline = () => {
       setToast({
-        message: " Connection restored! You are back online.",
+        message: "Connection restored! You are back online.",
         type: "success",
       });
     };
 
     const handleOffline = () => {
       setToast({
-        message:
-          " Network disconnected. Please check your internet connection.",
+        message: "Network disconnected. Please check your internet connection.",
         type: "error",
       });
     };
@@ -111,9 +110,7 @@ export default function CalculatorForm() {
 
       const screeningComponent = (oLevelSum + sittingPoints) * 0.1;
       setIsLoading(false);
-
       setResult(Number((jambComponent + screeningComponent).toFixed(2)));
-
       setToast({
         message: "Aggregate calculated successfully!",
         type: "success",
@@ -143,7 +140,6 @@ export default function CalculatorForm() {
       return;
     }
     if (grades.some((g) => g === "")) {
-      //   return alert("Select all 4 O'Level grades");
       setToast({ message: "Please select all 4 0'Level", type: "info" });
       return;
     }

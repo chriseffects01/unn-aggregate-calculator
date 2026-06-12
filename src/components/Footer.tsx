@@ -28,9 +28,7 @@ export default function Footer() {
         {/* Right Side: Communities & Channels */}
         <div className="p-5 bg-white dark:bg-slate-800 rounded-2xl border border-slate-150 dark:border-slate-700 flex flex-col justify-between">
           <div className="flex items-start gap-4">
-            {/* Channel Logo Slot */}
             <div className="w-12 h-12 rounded-full bg-orange-100 dark:bg-orange-950 flex items-center justify-center font-bold text-orange-600 shrink-0 overflow-hidden">
-              {/* Replace text with <img src="/logo.jpg" alt="Logo" /> later */}
               UNN
             </div>
             <div>
@@ -46,13 +44,13 @@ export default function Footer() {
 
           <div className="grid grid-cols-2 gap-2 mt-4">
             <a
-              href="https://whatsapp.com/channel/0029VbBntl1DeOMzkgVJKv0G"
+              href="https://chat.whatsapp.com/CSAFfwBnI9WKQ3Jt6jNx1b?mode=gi_t"
               className="text-center bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-800 dark:text-slate-200 font-medium text-xs py-2 px-3 rounded-lg transition"
             >
               Join WhatsApp Group
             </a>
             <a
-              href="https://chat.whatsapp.com/CSAFfwBnI9WKQ3Jt6jNx1b?mode=gi_t"
+              href="https://whatsapp.com/channel/0029VbBntl1DeOMzkgVJKv0G"
               target="_blank"
               className="text-center bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-800 dark:text-slate-200 font-medium text-xs py-2 px-3 rounded-lg transition"
             >
